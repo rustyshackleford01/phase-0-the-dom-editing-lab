@@ -1,0 +1,169 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 8,
+    "passes": 3,
+    "pending": 0,
+    "failures": 5,
+    "start": "2025-02-06T06:58:44.332Z",
+    "end": "2025-02-06T06:58:44.513Z",
+    "duration": 181
+  },
+  "tests": [
+    {
+      "title": "contains a <body> tag",
+      "fullTitle": "within index.html contains a <body> tag",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a </body> tag",
+      "fullTitle": "within index.html contains a </body> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains an <h1> tag",
+      "fullTitle": "within index.html contains an <h1> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a <p> tag",
+      "fullTitle": "within index.html contains a <p> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include '<p>'",
+        "showDiff": false,
+        "actual": "\n    <!--All our work for this lesson will go here-->\n    <h1>My HTML adventure</h1>\n  \n",
+        "stack": "AssertionError: expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include '<p>'\n    at Context.<anonymous> (test/indexTest.js:14:57)\n    at process.processImmediate (node:internal/timers:511:21)"
+      }
+    },
+    {
+      "title": "within the <p>, it contains a <strong> tag",
+      "fullTitle": "within index.html within the <p>, it contains a <strong> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:17:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <em> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <em> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:20:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <a> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <a> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:23:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <body>, it contains a <table> tag",
+      "fullTitle": "within index.html within the <body>, it contains a <table> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include 'table'",
+        "showDiff": false,
+        "actual": "\n    <!--All our work for this lesson will go here-->\n    <h1>My HTML adventure</h1>\n  \n",
+        "stack": "AssertionError: expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include 'table'\n    at Context.<anonymous> (test/indexTest.js:28:57)\n    at process.processImmediate (node:internal/timers:511:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "contains a <p> tag",
+      "fullTitle": "within index.html contains a <p> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include '<p>'",
+        "showDiff": false,
+        "actual": "\n    <!--All our work for this lesson will go here-->\n    <h1>My HTML adventure</h1>\n  \n",
+        "stack": "AssertionError: expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include '<p>'\n    at Context.<anonymous> (test/indexTest.js:14:57)\n    at process.processImmediate (node:internal/timers:511:21)"
+      }
+    },
+    {
+      "title": "within the <p>, it contains a <strong> tag",
+      "fullTitle": "within index.html within the <p>, it contains a <strong> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:17:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <em> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <em> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:20:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <p>, it contains an <a> tag",
+      "fullTitle": "within index.html within the <p>, it contains an <a> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read properties of null (reading 'innerHTML')\n    at Context.<anonymous> (test/indexTest.js:23:39)\n    at process.processImmediate (node:internal/timers:511:21)",
+        "message": "Cannot read properties of null (reading 'innerHTML')"
+      }
+    },
+    {
+      "title": "within the <body>, it contains a <table> tag",
+      "fullTitle": "within index.html within the <body>, it contains a <table> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include 'table'",
+        "showDiff": false,
+        "actual": "\n    <!--All our work for this lesson will go here-->\n    <h1>My HTML adventure</h1>\n  \n",
+        "stack": "AssertionError: expected '\\n    <!--All our work for this lesson will go here-->\\n    <h1>My HTML adventure</h1>\\n  \\n' to include 'table'\n    at Context.<anonymous> (test/indexTest.js:28:57)\n    at process.processImmediate (node:internal/timers:511:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "contains a <body> tag",
+      "fullTitle": "within index.html contains a <body> tag",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains a </body> tag",
+      "fullTitle": "within index.html contains a </body> tag",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains an <h1> tag",
+      "fullTitle": "within index.html contains an <h1> tag",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
